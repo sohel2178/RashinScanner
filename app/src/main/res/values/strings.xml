@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">RashinScanner</string>
+
+    <string name="font_fontFamily_medium">sans-serif</string>
+
+
+    <string name="scan">Scan</string>
+    <string name="decode">Encode</string>
+    <string name="save">Saved</string>
+    <string name="name">Name</string>
+    <string name="designation">Designation</string>
+    <string name="email">Email</string>
+    <string name="address">Address</string>
+    <string name="comapany_name">Comapany Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="website">Website</string>
+    <string name="generate">generate</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="scan_result">Scan Result</string>
+    <string name="format">Format:</string>
+    <string name="type">Type:</string>
+    <string name="time">Time:</string>
+    <string name="text">Text:</string>
+    <string name="subject">Subject:</string>
+    <string name="message">Message:</string>
+    <string name="isbn">ISBN:</string>
+</resources>

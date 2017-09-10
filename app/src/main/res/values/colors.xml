@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#00796B</color>
+    <color name="colorAccent">#673AB7</color>
+
+    <color name="camera_icon_color">#ffffff</color>
+    <color name="color_camera_icon_color">#616161</color>
+
+    <color name="item_text_color">#670eb0</color>
+
+    <color name="icon_color">#009688</color>
+
+
+    <color name="green">#00e676</color>
+    <color name="red">#ff5252</color>
+    <color name="light_grey">#E0E0E0</color>
+</resources>

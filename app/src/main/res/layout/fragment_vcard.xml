@@ -1,0 +1,130 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.linearbd.rashinscanner.EncodeFragments.VCardFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rl_first">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/name"
+                    android:id="@+id/et_name"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/et_title"
+                    android:hint="@string/designation"
+                    android:layout_below="@+id/et_name"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/et_email"
+                    android:hint="@string/email"
+                    android:inputType="textEmailAddress"
+                    android:layout_below="@+id/et_title"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/et_address"
+                    android:hint="@string/address"
+                    android:layout_below="@+id/et_email"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/et_company_name"
+                    android:hint="@string/comapany_name"
+                    android:layout_below="@+id/et_address"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/et_phone_number"
+                    android:hint="@string/phone_number"
+                    android:inputType="phone"
+                    android:layout_below="@+id/et_company_name"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/et_company_website"
+                    android:hint="@string/website"
+                    android:layout_below="@+id/et_phone_number"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/et_company_website"
+                    android:background="@drawable/button_ripple"
+                    android:text="@string/generate"
+                    android:id="@+id/btn_generate"/>
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/circle_24dp"
+                    android:layout_below="@+id/btn_generate"
+                    android:id="@+id/iv_icon"
+                    android:layout_centerHorizontal="true"/>
+
+            </RelativeLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rl_second"
+        android:padding="@dimen/default_padding"
+        android:visibility="invisible">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/iv_barcode"/>
+
+        <ImageView
+            style="@style/ImageViewButtonStyle"
+            android:layout_below="@+id/iv_barcode"
+            android:src="@drawable/share_ripple"
+            android:padding="10dp"
+            android:clickable="true"
+            android:id="@+id/iv_share"/>
+
+        <ImageView
+            style="@style/ImageViewButtonStyle"
+            android:layout_below="@+id/iv_barcode"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/save_ripple"
+            android:padding="10dp"
+            android:clickable="true"
+            android:id="@+id/iv_save"/>
+
+
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
